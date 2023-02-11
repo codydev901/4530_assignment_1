@@ -114,6 +114,7 @@ def parse_data():
                                  relative_mission_count_theater_year, relative_mission_count_aircraft_year])
 
     final_df = pd.DataFrame(data=final_df[1:], columns=final_df[0])
+    final_df = final_df.sort_values(by=['aircraft'])
     write_fp = "parsed_data/ww2_aircraft_missions_parsed.csv"
     final_df.to_csv(write_fp, index=False)
 
@@ -123,15 +124,19 @@ def parse_data():
 def plot_data():
 
     df = pd.read_csv("parsed_data/ww2_aircraft_missions_parsed.csv")
+
+    # To Fix Relative Mission Count Theater Year Scale
+    df["relative_mission_count_theater_year"] = df["relative_mission_count_theater_year"].apply(lambda x: max(x, 0.02))
+
     theaters = list(df["theater"].unique())
-    fig = make_subplots(rows=2, cols=2, subplot_titles=theaters, specs=[[{"type": "polar"}, {"type": "polar"}],
-                                                                        [{"type": "polar"}, {"type": "polar"}]],
+    theater_titles = [f"Theater:{v}" for v in theaters]
+    fig = make_subplots(rows=2, cols=2, subplot_titles=theater_titles, specs=[[{"type": "polar"}, {"type": "polar"}],
+                                                                             [{"type": "polar"}, {"type": "polar"}]],
                         shared_yaxes=True, shared_xaxes=True)
 
     r = 1
     c = 1
     for theater in theaters:
-        print(theater, r, c)
         t_df = df[df["theater"] == theater]
         sub_fig = px.scatter_polar(data_frame=t_df, r="year", theta="aircraft", range_r=[1938, 1946],
                                    size="relative_mission_count_theater_year",
@@ -147,20 +152,34 @@ def plot_data():
             c += 1
 
     # Some manual adjustments
-    fig.layout.polar["radialaxis"] = {'range': [1938, 1946]}
-    fig.layout.polar2["radialaxis"] = {'range': [1938, 1946]}
-    fig.layout.polar3["radialaxis"] = {'range': [1938, 1946]}
-    fig.layout.polar4["radialaxis"] = {'range': [1938, 1946]}
-
-    fig.update_layout(coloraxis=dict(colorscale='bluered'), showlegend=True)
-
+    fig.layout.polar["radialaxis"] = {'range': [1938, 1946],
+                                      'tickfont': {"size": 8}}
+    fig.layout.polar["angularaxis"] = {'tickfont': {"size": 8}}
+    fig.layout.polar2["radialaxis"] = {'range': [1938, 1946],
+                                       'tickfont': {"size": 8}}
+    fig.layout.polar2["angularaxis"] = {'tickfont': {"size": 8}}
+    fig.layout.polar3["radialaxis"] = {'range': [1938, 1946],
+                                       'tickfont': {"size": 8}}
+    fig.layout.polar3["angularaxis"] = {'tickfont': {"size": 8}}
+    fig.layout.polar4["radialaxis"] = {'range': [1938, 1946],
+                                       'tickfont': {"size": 8}}
+    fig.layout.polar4["angularaxis"] = {'tickfont': {"size": 8}}
+    fig.layout.annotations[0].update(x=0.025)
+    fig.layout.annotations[2].update(x=0.025)
+    fig.layout.annotations[1].update(x=0.575)
+    fig.layout.annotations[3].update(x=0.575)
+    fig.update_layout(title_text="A Comparison of Yearly Allied Aircraft Use In Different Theaters of WW2")
+    fig.update_layout(coloraxis=dict(colorscale='bluered', showscale=False), showlegend=False)
+    fig.add_annotation(text='Color: How often a type of aircraft was used that year compared to other years (Red/Higher -> Blue/Lower) <br>Size: How often a type of aircraft was used that year compared to other types (Larger/More Frequent -> Smaller/Less Frequent)<br>Note: Size indication under 2% use not to scale',
+                       align='left',
+                       showarrow=False,
+                       xref='paper',
+                       yref='paper',
+                       x=0.5,
+                       y=-0.1,
+                       bordercolor='black',
+                       borderwidth=1)
     fig.show()
-
-
-
-
-
-
 
 
 def main():
