@@ -51,7 +51,7 @@ def parse_data():
     # Lets get a count of our incident_descriptions
     id_count = filter_df.groupby("Incident_Description")["Incident_Description"].count()
     id_count = id_count.sort_values(ascending=False)
-    print("Incident Description Counts - Sorted")
+    print(f"Incident Description Counts - Sorted:{len(id_count)}")
     for v in id_count.items():
         print(v)
 
@@ -136,7 +136,8 @@ def plot_data():
     df = pd.read_csv("parsed_data/chat_crime_parsed.csv")
 
     fig = px.bar(data_frame=df, x="day_of_week", y="crime_frequency",
-                 color="time_of_day", facet_col="crime_type", facet_col_wrap=2)
+                 color="time_of_day", facet_col="crime_type", facet_col_wrap=2,
+                 title="Chattanooga Crime Relative Crime Frequency by Day of Week and Time of Day")
 
     fig.show()
 

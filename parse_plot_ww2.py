@@ -9,6 +9,7 @@ from plotly.subplots import make_subplots
 Doc Doc Doc
 """
 
+
 def parse_data():
 
     print("WW2 DataSet - Parse Data")
@@ -188,7 +189,7 @@ def plot_data():
 
 def main():
 
-    # parse_data()
+    parse_data()
 
     plot_data()
 
