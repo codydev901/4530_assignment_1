@@ -2,7 +2,12 @@ import pandas as pd
 import plotly.express as px
 
 """
-Doc Doc Doc
+Cody Whitt
+pkz325
+CPSC 4530 Spring 2023
+Assignment 1
+
+For Dataset 2
 """
 
 # Some helper stuff for parse_data

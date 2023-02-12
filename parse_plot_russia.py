@@ -2,7 +2,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 """
-Doc Doc Doc
+Cody Whitt
+pkz325
+CPSC 4530 Spring 2023
+Assignment 1
+
+For Dataset 1
 """
 
 # Some helper stuff for parse_data
