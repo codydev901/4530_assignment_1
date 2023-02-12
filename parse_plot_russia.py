@@ -50,6 +50,7 @@ def parse_data():
     dd_df = [["week_of_war", "dangerous_day_of_week"]]
 
     # Probably cleaner way to do this, but this is clear.
+    # Iterate and track change in day to indicate move to next week.
     week_count = 0
     worst_day = None
     worst_losses = 0

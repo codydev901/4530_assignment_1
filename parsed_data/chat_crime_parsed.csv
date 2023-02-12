@@ -1,0 +1,281 @@
+crime_type,day_of_week,time_of_day,crime_frequency
+Aggravated Assault,Monday,early_morning,0.02004894578313253
+Aggravated Assault,Monday,late_morning,0.017507530120481927
+Aggravated Assault,Monday,afternoon,0.043109939759036146
+Aggravated Assault,Monday,evening,0.05233433734939759
+Aggravated Assault,Tuesday,early_morning,0.025508283132530122
+Aggravated Assault,Tuesday,late_morning,0.01882530120481928
+Aggravated Assault,Tuesday,afternoon,0.04198042168674699
+Aggravated Assault,Tuesday,evening,0.05158132530120482
+Aggravated Assault,Wednesday,early_morning,0.024284638554216868
+Aggravated Assault,Wednesday,late_morning,0.017695783132530122
+Aggravated Assault,Wednesday,afternoon,0.041321536144578314
+Aggravated Assault,Wednesday,evening,0.05073418674698795
+Aggravated Assault,Thursday,early_morning,0.021460843373493976
+Aggravated Assault,Thursday,late_morning,0.015719126506024098
+Aggravated Assault,Thursday,afternoon,0.03943900602409638
+Aggravated Assault,Thursday,evening,0.05139307228915663
+Aggravated Assault,Friday,early_morning,0.02579066265060241
+Aggravated Assault,Friday,late_morning,0.01873117469879518
+Aggravated Assault,Friday,afternoon,0.042639307228915665
+Aggravated Assault,Friday,evening,0.05562876506024096
+Aggravated Assault,Saturday,early_morning,0.04066265060240964
+Aggravated Assault,Saturday,late_morning,0.01948418674698795
+Aggravated Assault,Saturday,afternoon,0.04085090361445783
+Aggravated Assault,Saturday,evening,0.05600527108433735
+Aggravated Assault,Sunday,early_morning,0.04376882530120482
+Aggravated Assault,Sunday,late_morning,0.021649096385542167
+Aggravated Assault,Sunday,afternoon,0.045651355421686746
+Aggravated Assault,Sunday,evening,0.05619352409638554
+Destructive/Damage/Vandalism Of Property,Monday,early_morning,0.027167656674494636
+Destructive/Damage/Vandalism Of Property,Monday,late_morning,0.03379840677810011
+Destructive/Damage/Vandalism Of Property,Monday,afternoon,0.04374453193350831
+Destructive/Damage/Vandalism Of Property,Monday,evening,0.047152000736750015
+Destructive/Damage/Vandalism Of Property,Tuesday,early_morning,0.023944375374130866
+Destructive/Damage/Vandalism Of Property,Tuesday,late_morning,0.030160703596260992
+Destructive/Damage/Vandalism Of Property,Tuesday,afternoon,0.03877146935580421
+Destructive/Damage/Vandalism Of Property,Tuesday,evening,0.042731500667679695
+Destructive/Damage/Vandalism Of Property,Wednesday,early_morning,0.022977390984021732
+Destructive/Damage/Vandalism Of Property,Wednesday,late_morning,0.026845328544458258
+Destructive/Damage/Vandalism Of Property,Wednesday,afternoon,0.04181056315329005
+Destructive/Damage/Vandalism Of Property,Wednesday,evening,0.04687571948243312
+Destructive/Damage/Vandalism Of Property,Thursday,early_morning,0.021043422203803473
+Destructive/Damage/Vandalism Of Property,Thursday,late_morning,0.02629276603582447
+Destructive/Damage/Vandalism Of Property,Thursday,afternoon,0.035824469309757336
+Destructive/Damage/Vandalism Of Property,Thursday,evening,0.048579453884053964
+Destructive/Damage/Vandalism Of Property,Friday,early_morning,0.02329971911405811
+Destructive/Damage/Vandalism Of Property,Friday,late_morning,0.025463922272873786
+Destructive/Damage/Vandalism Of Property,Friday,afternoon,0.041948703780448494
+Destructive/Damage/Vandalism Of Property,Friday,evening,0.048211078878298105
+Destructive/Damage/Vandalism Of Property,Saturday,early_morning,0.03393654740525855
+Destructive/Damage/Vandalism Of Property,Saturday,late_morning,0.027904406686006356
+Destructive/Damage/Vandalism Of Property,Saturday,afternoon,0.042086844407606946
+Destructive/Damage/Vandalism Of Property,Saturday,evening,0.04880968826265138
+Destructive/Damage/Vandalism Of Property,Sunday,early_morning,0.03715982870562232
+Destructive/Damage/Vandalism Of Property,Sunday,late_morning,0.023944375374130866
+Destructive/Damage/Vandalism Of Property,Sunday,afternoon,0.042086844407606946
+Destructive/Damage/Vandalism Of Property,Sunday,evening,0.047428281991066905
+Theft From Motor Vehicle,Monday,early_morning,0.023370509443479237
+Theft From Motor Vehicle,Monday,late_morning,0.032842010872611106
+Theft From Motor Vehicle,Monday,afternoon,0.03962338171832091
+Theft From Motor Vehicle,Monday,evening,0.05038390405200919
+Theft From Motor Vehicle,Tuesday,early_morning,0.023986997702180126
+Theft From Motor Vehicle,Tuesday,late_morning,0.02931121448186964
+Theft From Motor Vehicle,Tuesday,afternoon,0.037045339909208094
+Theft From Motor Vehicle,Tuesday,evening,0.05453118870145155
+Theft From Motor Vehicle,Wednesday,early_morning,0.023650731379252367
+Theft From Motor Vehicle,Wednesday,late_morning,0.026452950736983692
+Theft From Motor Vehicle,Wednesday,afternoon,0.03413103177716752
+Theft From Motor Vehicle,Wednesday,evening,0.05296194586112201
+Theft From Motor Vehicle,Thursday,early_morning,0.021184778344448804
+Theft From Motor Vehicle,Thursday,late_morning,0.025219974219581907
+Theft From Motor Vehicle,Thursday,afternoon,0.0345233424872499
+Theft From Motor Vehicle,Thursday,evening,0.05234545760242112
+Theft From Motor Vehicle,Friday,early_morning,0.021184778344448804
+Theft From Motor Vehicle,Friday,late_morning,0.024939752283808778
+Theft From Motor Vehicle,Friday,afternoon,0.03614862971473407
+Theft From Motor Vehicle,Friday,evening,0.05380261166844141
+Theft From Motor Vehicle,Saturday,early_morning,0.02791010480300398
+Theft From Motor Vehicle,Saturday,late_morning,0.02516392983242728
+Theft From Motor Vehicle,Saturday,afternoon,0.04248164546320686
+Theft From Motor Vehicle,Saturday,evening,0.057613629994956006
+Theft From Motor Vehicle,Sunday,early_morning,0.026565039511292944
+Theft From Motor Vehicle,Sunday,late_morning,0.02516392983242728
+Theft From Motor Vehicle,Sunday,afternoon,0.04326626688337163
+Theft From Motor Vehicle,Sunday,evening,0.05419492237852379
+Burglary/Breaking And Entering,Monday,early_morning,0.020589821974465024
+Burglary/Breaking And Entering,Monday,late_morning,0.049361625606905234
+Burglary/Breaking And Entering,Monday,afternoon,0.04612479769825571
+Burglary/Breaking And Entering,Monday,evening,0.03578493076784751
+Burglary/Breaking And Entering,Tuesday,early_morning,0.019151231792843015
+Burglary/Breaking And Entering,Tuesday,late_morning,0.04252832224420068
+Burglary/Breaking And Entering,Tuesday,afternoon,0.042887969789606184
+Burglary/Breaking And Entering,Tuesday,evening,0.03857219924474015
+Burglary/Breaking And Entering,Wednesday,early_morning,0.01969070311095127
+Burglary/Breaking And Entering,Wednesday,late_morning,0.041898939039741054
+Burglary/Breaking And Entering,Wednesday,afternoon,0.04882215428879698
+Burglary/Breaking And Entering,Wednesday,evening,0.03416651681352275
+Burglary/Breaking And Entering,Thursday,early_morning,0.017892465383923754
+Burglary/Breaking And Entering,Thursday,late_morning,0.039021758676497036
+Burglary/Breaking And Entering,Thursday,afternoon,0.047203740334472215
+Burglary/Breaking And Entering,Thursday,evening,0.0417191152670383
+Burglary/Breaking And Entering,Friday,early_morning,0.022837619133249415
+Burglary/Breaking And Entering,Friday,late_morning,0.039830965653659414
+Burglary/Breaking And Entering,Friday,afternoon,0.05295810106096026
+Burglary/Breaking And Entering,Friday,evening,0.04162920338068693
+Burglary/Breaking And Entering,Saturday,early_morning,0.025265240064736558
+Burglary/Breaking And Entering,Saturday,late_morning,0.02751303722352095
+Burglary/Breaking And Entering,Saturday,afternoon,0.04666426901636396
+Burglary/Breaking And Entering,Saturday,evening,0.035695018881496135
+Burglary/Breaking And Entering,Sunday,early_morning,0.02337709045135767
+Burglary/Breaking And Entering,Sunday,late_morning,0.0276928609962237
+Burglary/Breaking And Entering,Sunday,afternoon,0.03812263981298328
+Burglary/Breaking And Entering,Sunday,evening,0.03299766229095486
+Simple Assault,Monday,early_morning,0.01881625441696113
+Simple Assault,Monday,late_morning,0.02239399293286219
+Simple Assault,Monday,afternoon,0.0458922261484099
+Simple Assault,Monday,evening,0.0480565371024735
+Simple Assault,Tuesday,early_morning,0.0196113074204947
+Simple Assault,Tuesday,late_morning,0.023586572438162545
+Simple Assault,Tuesday,afternoon,0.04213780918727915
+Simple Assault,Tuesday,evening,0.04840989399293286
+Simple Assault,Wednesday,early_morning,0.020141342756183747
+Simple Assault,Wednesday,late_morning,0.02314487632508834
+Simple Assault,Wednesday,afternoon,0.04271201413427562
+Simple Assault,Wednesday,evening,0.047791519434628976
+Simple Assault,Thursday,early_morning,0.018639575971731447
+Simple Assault,Thursday,late_morning,0.02128975265017668
+Simple Assault,Thursday,afternoon,0.043021201413427565
+Simple Assault,Thursday,evening,0.049690812720848056
+Simple Assault,Friday,early_morning,0.022173144876325088
+Simple Assault,Friday,late_morning,0.02168727915194346
+Simple Assault,Friday,afternoon,0.04628975265017668
+Simple Assault,Friday,evening,0.05653710247349823
+Simple Assault,Saturday,early_morning,0.03573321554770318
+Simple Assault,Saturday,late_morning,0.023454063604240283
+Simple Assault,Saturday,afternoon,0.04209363957597173
+Simple Assault,Saturday,evening,0.05790636042402827
+Simple Assault,Sunday,early_morning,0.0446113074204947
+Simple Assault,Sunday,late_morning,0.019964664310954065
+Simple Assault,Sunday,afternoon,0.04456713780918728
+Simple Assault,Sunday,evening,0.04964664310954064
+Robbery,Monday,early_morning,0.027104722792607804
+Robbery,Monday,late_morning,0.020123203285420943
+Robbery,Monday,afternoon,0.02751540041067762
+Robbery,Monday,evening,0.06201232032854209
+Robbery,Tuesday,early_morning,0.026283367556468172
+Robbery,Tuesday,late_morning,0.025872689938398356
+Robbery,Tuesday,afternoon,0.030390143737166326
+Robbery,Tuesday,evening,0.05872689938398357
+Robbery,Wednesday,early_morning,0.02792607802874743
+Robbery,Wednesday,late_morning,0.020123203285420943
+Robbery,Wednesday,afternoon,0.03367556468172485
+Robbery,Wednesday,evening,0.061601642710472276
+Robbery,Thursday,early_morning,0.026694045174537988
+Robbery,Thursday,late_morning,0.013141683778234086
+Robbery,Thursday,afternoon,0.02792607802874743
+Robbery,Thursday,evening,0.052566735112936344
+Robbery,Friday,early_morning,0.026694045174537988
+Robbery,Friday,late_morning,0.021765913757700206
+Robbery,Friday,afternoon,0.040246406570841886
+Robbery,Friday,evening,0.07145790554414784
+Robbery,Saturday,early_morning,0.038193018480492814
+Robbery,Saturday,late_morning,0.019301848049281315
+Robbery,Saturday,afternoon,0.031211498973305954
+Robbery,Saturday,evening,0.06611909650924025
+Robbery,Sunday,early_morning,0.03942505133470226
+Robbery,Sunday,late_morning,0.015605749486652977
+Robbery,Sunday,afternoon,0.03490759753593429
+Robbery,Sunday,evening,0.053388090349075976
+Drug/Narcotic Violations,Monday,early_morning,0.021094175285792053
+Drug/Narcotic Violations,Monday,late_morning,0.017487751769188896
+Drug/Narcotic Violations,Monday,afternoon,0.051850843767011434
+Drug/Narcotic Violations,Monday,evening,0.04252857920522591
+Drug/Narcotic Violations,Tuesday,early_morning,0.021774632553075667
+Drug/Narcotic Violations,Tuesday,late_morning,0.02054980947196516
+Drug/Narcotic Violations,Tuesday,afternoon,0.04817637452367991
+Drug/Narcotic Violations,Tuesday,evening,0.0409635274904736
+Drug/Narcotic Violations,Wednesday,early_morning,0.02388405008165487
+Drug/Narcotic Violations,Wednesday,late_morning,0.02803483941208492
+Drug/Narcotic Violations,Wednesday,afternoon,0.06403102885138813
+Drug/Narcotic Violations,Wednesday,evening,0.06804572672836146
+Drug/Narcotic Violations,Thursday,early_morning,0.025108873162765378
+Drug/Narcotic Violations,Thursday,late_morning,0.02463255307566685
+Drug/Narcotic Violations,Thursday,afternoon,0.055117038649972784
+Drug/Narcotic Violations,Thursday,evening,0.053347849755035384
+Drug/Narcotic Violations,Friday,early_morning,0.025313010342950464
+Drug/Narcotic Violations,Friday,late_morning,0.0261295590636908
+Drug/Narcotic Violations,Friday,afternoon,0.05035383777898748
+Drug/Narcotic Violations,Friday,evening,0.05763473053892216
+Drug/Narcotic Violations,Saturday,early_morning,0.030620577027762656
+Drug/Narcotic Violations,Saturday,late_morning,0.013200870985302123
+Drug/Narcotic Violations,Saturday,afternoon,0.029940119760479042
+Drug/Narcotic Violations,Saturday,evening,0.051578660860097984
+Drug/Narcotic Violations,Sunday,early_morning,0.027422427871529667
+Drug/Narcotic Violations,Sunday,late_morning,0.011363636363636364
+Drug/Narcotic Violations,Sunday,afternoon,0.03021230266739249
+Drug/Narcotic Violations,Sunday,evening,0.03960261295590637
+Motor Vehicle Theft,Monday,early_morning,0.02365795724465558
+Motor Vehicle Theft,Monday,late_morning,0.03809976247030879
+Motor Vehicle Theft,Monday,afternoon,0.041140142517814726
+Motor Vehicle Theft,Monday,evening,0.04199524940617577
+Motor Vehicle Theft,Tuesday,early_morning,0.02508313539192399
+Motor Vehicle Theft,Tuesday,late_morning,0.03809976247030879
+Motor Vehicle Theft,Tuesday,afternoon,0.03695961995249406
+Motor Vehicle Theft,Tuesday,evening,0.047410926365795726
+Motor Vehicle Theft,Wednesday,early_morning,0.027078384798099764
+Motor Vehicle Theft,Wednesday,late_morning,0.03458432304038005
+Motor Vehicle Theft,Wednesday,afternoon,0.03676959619952494
+Motor Vehicle Theft,Wednesday,evening,0.044465558194774345
+Motor Vehicle Theft,Thursday,early_morning,0.020712589073634203
+Motor Vehicle Theft,Thursday,late_morning,0.029358669833729215
+Motor Vehicle Theft,Thursday,afternoon,0.03667458432304038
+Motor Vehicle Theft,Thursday,evening,0.043705463182897863
+Motor Vehicle Theft,Friday,early_morning,0.02641330166270784
+Motor Vehicle Theft,Friday,late_morning,0.030498812351543943
+Motor Vehicle Theft,Friday,afternoon,0.040950118764845604
+Motor Vehicle Theft,Friday,evening,0.048741092636579574
+Motor Vehicle Theft,Saturday,early_morning,0.027648456057007127
+Motor Vehicle Theft,Saturday,late_morning,0.032304038004750596
+Motor Vehicle Theft,Saturday,afternoon,0.03876484560570071
+Motor Vehicle Theft,Saturday,evening,0.04978622327790974
+Motor Vehicle Theft,Sunday,early_morning,0.02983372921615202
+Motor Vehicle Theft,Sunday,late_morning,0.029168646080760096
+Motor Vehicle Theft,Sunday,afternoon,0.034109263657957245
+Motor Vehicle Theft,Sunday,evening,0.045985748218527314
+Shoplifting,Monday,early_morning,0.0057389564576422894
+Shoplifting,Monday,late_morning,0.01953351234665403
+Shoplifting,Monday,afternoon,0.07671247301637446
+Shoplifting,Monday,evening,0.04175222450376454
+Shoplifting,Tuesday,early_morning,0.006844626967830253
+Shoplifting,Tuesday,late_morning,0.018427841836466067
+Shoplifting,Tuesday,afternoon,0.07402727320591797
+Shoplifting,Tuesday,evening,0.0458590006844627
+Shoplifting,Wednesday,early_morning,0.007476438687937661
+Shoplifting,Wednesday,late_morning,0.018849049649871004
+Shoplifting,Wednesday,afternoon,0.07307955562575685
+Shoplifting,Wednesday,evening,0.0446480282209235
+Shoplifting,Thursday,early_morning,0.006949928921181488
+Shoplifting,Thursday,late_morning,0.019480861369978415
+Shoplifting,Thursday,afternoon,0.07613331227294266
+Shoplifting,Thursday,evening,0.04159427157373769
+Shoplifting,Friday,early_morning,0.007318485757910809
+Shoplifting,Friday,late_morning,0.020849786763544462
+Shoplifting,Friday,afternoon,0.0756068025061865
+Shoplifting,Friday,evening,0.047069973148001897
+Shoplifting,Saturday,early_morning,0.008160901384720686
+Shoplifting,Saturday,late_morning,0.017269520349602486
+Shoplifting,Saturday,afternoon,0.07702837887642816
+Shoplifting,Saturday,evening,0.04938661612172906
+Shoplifting,Sunday,early_morning,0.007055230874532722
+Shoplifting,Sunday,late_morning,0.014636971515821618
+Shoplifting,Sunday,afternoon,0.06418154056757752
+Shoplifting,Sunday,evening,0.0343284367925025
+Driving Under The Influence,Monday,early_morning,0.03159090909090909
+Driving Under The Influence,Monday,late_morning,0.006136363636363636
+Driving Under The Influence,Monday,afternoon,0.01090909090909091
+Driving Under The Influence,Monday,evening,0.02727272727272727
+Driving Under The Influence,Tuesday,early_morning,0.022954545454545453
+Driving Under The Influence,Tuesday,late_morning,0.004545454545454545
+Driving Under The Influence,Tuesday,afternoon,0.0125
+Driving Under The Influence,Tuesday,evening,0.028863636363636362
+Driving Under The Influence,Wednesday,early_morning,0.026363636363636363
+Driving Under The Influence,Wednesday,late_morning,0.005454545454545455
+Driving Under The Influence,Wednesday,afternoon,0.014545454545454545
+Driving Under The Influence,Wednesday,evening,0.05045454545454545
+Driving Under The Influence,Thursday,early_morning,0.03068181818181818
+Driving Under The Influence,Thursday,late_morning,0.005909090909090909
+Driving Under The Influence,Thursday,afternoon,0.019090909090909092
+Driving Under The Influence,Thursday,evening,0.059772727272727276
+Driving Under The Influence,Friday,early_morning,0.0525
+Driving Under The Influence,Friday,late_morning,0.005454545454545455
+Driving Under The Influence,Friday,afternoon,0.02431818181818182
+Driving Under The Influence,Friday,evening,0.08613636363636364
+Driving Under The Influence,Saturday,early_morning,0.14272727272727273
+Driving Under The Influence,Saturday,late_morning,0.00840909090909091
+Driving Under The Influence,Saturday,afternoon,0.022045454545454545
+Driving Under The Influence,Saturday,evening,0.07977272727272727
+Driving Under The Influence,Sunday,early_morning,0.16045454545454546
+Driving Under The Influence,Sunday,late_morning,0.006818181818181818
+Driving Under The Influence,Sunday,afternoon,0.014772727272727272
+Driving Under The Influence,Sunday,evening,0.03954545454545454
