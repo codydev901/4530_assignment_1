@@ -5,6 +5,10 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 
+"""
+Doc Doc Doc
+"""
+
 def parse_data():
 
     print("WW2 DataSet - Parse Data")
@@ -131,7 +135,7 @@ def plot_data():
     theaters = list(df["theater"].unique())
     theater_titles = [f"Theater:{v}" for v in theaters]
     fig = make_subplots(rows=2, cols=2, subplot_titles=theater_titles, specs=[[{"type": "polar"}, {"type": "polar"}],
-                                                                             [{"type": "polar"}, {"type": "polar"}]],
+                                                                              [{"type": "polar"}, {"type": "polar"}]],
                         shared_yaxes=True, shared_xaxes=True)
 
     r = 1
